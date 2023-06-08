@@ -4,28 +4,8 @@ import "./Expenses.css";
 import Card from "../UI/Card";
 
 const Expenses = (props) => {
-  const expenses = [
-    {
-      title: "Car Insurance1",
-      amount: 123.23,
-      date: new Date(2021, 2, 28),
-    },
-    {
-      title: "Car Insurance2",
-      amount: 223.23,
-      date: new Date(2021, 2, 28),
-    },
-    {
-      title: "Car Insurance3",
-      amount: 323.23,
-      date: new Date(2021, 2, 28),
-    },
-    {
-      title: "Car Insurance4",
-      amount: 423.23,
-      date: new Date(2021, 2, 28),
-    },
-  ];
+  const expenses= props.items;
+
   return (
     <Card className="expenses">
       <p>Practicing React ...</p>
