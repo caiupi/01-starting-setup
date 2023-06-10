@@ -38,7 +38,7 @@ const ExpenseForm = (props) => {
     }); 
     setUserInput((prevState) => {
       return { ...prevState, enteredTitle: event.target.value };
-    });*/
+    });*/ 
   };
   const submitHandler = (event) => {
     event.preventDefault();
