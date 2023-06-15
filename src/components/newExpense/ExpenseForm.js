@@ -47,7 +47,7 @@ const ExpenseForm = (props) => {
       amount: enteredAmount,
       date: new Date(enteredDate),
     };
-    console.log(expenseData);
+    //console.log(expenseData);
     console.log("submited");
     //Execute the function
     props.onSaveExpenseData(expenseData);
