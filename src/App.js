@@ -37,6 +37,7 @@ const App = () => {
     <div>
       <NewExpense />
       <Expenses items={expenses} />
+      <Expenses items={expenses} />
     </div>
   );
 }
